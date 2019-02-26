@@ -1,0 +1,30 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Find your new best friend!  ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k8blanco/FriendFinder.git"
+  },
+  "keywords": [
+    "friend",
+    "finder",
+    "node",
+    "express",
+    "heroku"
+  ],
+  "author": "k8blanco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k8blanco/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/k8blanco/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}

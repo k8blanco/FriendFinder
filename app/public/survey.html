@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <!-- NavBar -->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Friend Finder</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <h2 class="center">Survey</h2>
+            <form class="col s12">
+
+                <!-- Name and Link Inputs -->
+                <div class="row">
+                    <div class="input-field col s10 offset-s1">
+                        <input id="name" type="text" class="validate">
+                        <label for="name">Name (Required)</label>
+                    </div>
+                    <div class="input-field col s10 offset-s1">
+                        <input id="photoLink" type="text" class="validate">
+                        <label for="photoLink">Link to Photo (Required)</label>
+                    </div>
+
+                </div>
+
+
+
+                <!-- Survey -->
+                <div class="input-field col s12">
+                    <select id="q1">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Dogs</option>
+                        <option value="2">Cats</option>
+                        <option value="3">Sugar Gliders</option>
+                        <option value="4">Llamas</option>
+                    </select>
+                    <label>Dogs, cats, or ...?</label>
+                </div>
+
+                <div class="input-field col s12">
+                    <select id="q2">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Mountains</option>
+                        <option value="2">Lakes</option>
+                        <option value="3">Desert</option>
+                        <option value="4">I hate outside</option>
+                    </select>
+                    <label>Which is your favorite environment?</label>
+                </div>
+
+                <div class="input-field col s12">
+                    <select id="q3">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Strongly Agree, I'm basically Bear Grylls</option>
+                        <option value="2">Agree</option>
+                        <option value="3">Disagree</option>
+                        <option value="4">Strongly Disagree, I hate trees and animals</option>
+                    </select>
+                    <label>You love the outdoors - agree or disagree?</label>
+                </div>
+
+                <div class="input-field col s12">
+                    <select id="q4">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">South Park</option>
+                        <option value="2">Seinfeld</option>
+                        <option value="3">Bathroom Joke Books</option>
+                        <option value="4">Our Current Political Climate</option>
+                    </select>
+                    <label>What type of humor do you enjoy?</label>
+                </div>
+
+                <div class="input-field col s12">
+                    <select id="q5">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Fall</option>
+                        <option value="2">Winter</option>
+                        <option value="3">Summer</option>
+                        <option value="4">Spring</option>
+                    </select>
+                    <label>What is your favorite season?</label>
+                </div>
+
+                <div class="input-field col s12">
+                    <select id="q6">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Yes give me ALL THE PINEAPPLE</option>
+                        <option value="2">Sure!</option>
+                        <option value="3">No, I'm a barbarian and I hate pineapple</option>
+                        <option value="4">I have a hard time making decisions like this</option>
+                    </select>
+                    <label>Pineapple on pizza - yay or nay?</label>
+                </div>
+
+                <div class="input-field col s12">
+                    <select id="q7">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Socrates</option>
+                        <option value="2">Confucius</option>
+                        <option value="3">Foucault</option>
+                        <option value="4">Bart Simpson</option>
+                    </select>
+                    <label>Who is your favorite philosopher?</label>
+                </div>
+
+                <div class="input-field col s12">
+                    <select id="q8">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Hiking in the mountains</option>
+                        <option value="2">Boozy brunch</option>
+                        <option value="3">Watching Mean Girls in our pjs</option>
+                        <option value="4">Volunteering to walk dogs at the local animal shelter</option>
+                    </select>
+                    <label>What would be your ideal friend-date?</label>
+                </div>
+
+                <div class="input-field col s12">
+                    <select id="q9">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Museum of Modern Art</option>
+                        <option value="2">Museum of Nature and Science</option>
+                        <option value="3">Natural History Museum</option>
+                        <option value="4">Institute of Art</option>
+                    </select>
+                    <label>What's your favorite museum?</label>
+                </div>
+
+                <div class="input-field col s12">
+                    <select id="q10">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">"Frankly, my dear, I don't give a damn."</option>
+                        <option value="2">"What we've got here is a failure to communicate."</option>
+                        <option value="3">"My prrrrecious..."</option>
+                        <option value="4">"What...is the air-speed velocity of an unladen swallow?"</option>
+                    </select>
+                    <label>Which quote best matches your personality?</label>
+                </div>
+
+                <a class="waves-effect waves-light btn" id="findMatch"><i class="fas fa-user-friends left"></i>Find
+                    Your Match!</a>
+
+            </form>
+
+
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 k8blanco
+                <a class="grey-text text-lighten-4 right" href="/home">Home</a>
+            </div>
+        </div>
+    </footer>
+
+
+     <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+        <div class="modal-content">
+          <h4>Your friend match is: </h4>
+          <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+              
+    
+</body>
+
+</html>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('select').formSelect();
+        
+    });
+
+    $("#findMatch").on("click", function (event) {
+        event.preventDefault();
+        $('.modal').modal();
+
+        //Validate Form
+        // function validateForm() {
+        //     var isValid = true;
+        //     $(".")
+        // }
+
+        //Grab the form elements if all fields are filled
+        // if (validateForm() == true) {
+
+        //create an object with the data entered
+        var newFriend = {
+            name: $("#name").val().trim(),
+            photo: $("#photoLink").val().trim(),
+            scores: [
+                $("#q1").val(),
+                $("#q2").val(),
+                $("#q3").val(),
+                $("#q4").val(),
+                $("#q5").val(),
+                $("#q6").val(),
+                $("#q7").val()
+            ],
+        };
+
+        console.log("newFriend: " + JSON.stringify(newFriend));
+
+        //get selected values using Materialize 
+        // instance.getSelectedValues();
+
+        //ajax post the data to the friends api
+        $.post("/api/friends", newFriend)
+            .done(function (data) {
+                console.log("Response: " + JSON.stringify(data));
+                
+                //set the name and image values of the friend match
+                $("#userMatch").html(data.nameMatch);
+                console.log("Name match: " + data.nameMatch);
+
+                $("#userMatchImage").attr("src", data.photoMatch);
+
+                //Trigger modal 
+               $('.modal').modal('open');
+            
+
+                //Clear Form
+                $("#name").val("");
+                $("#photoLink").val("");
+
+                
+                
+
+
+            })
+
+
+
+        // };
+    });
+</script>
+
+
+<!-- Get Modal Working -->
+<!-- Clear Questions on submit -->
+<!-- Validate Form -->

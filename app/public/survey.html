@@ -27,8 +27,8 @@
 <header>
     <!-- NavBar -->
     <nav>
-        <div class="nav-wrapper orange">
-            <a href="#" class="brand-logo orange">Friend Finder</a>
+        <div class="nav-wrapper orange z-depth-2">
+            <a href="#" class="brand-logo orange" id="logo">Friend Finder</a>
         </div>
     </nav>
 </header>
@@ -37,8 +37,9 @@
 
     <div class="container">
         <div class="row">
-            <h2 class="center" id="surveyTitle">Survey</h2>
-            <form class="col s12">
+            
+            <form class="col s12 z-depth-2">
+                    <h2 class="center" id="surveyTitle">Survey</h2>
 
                 <!-- Name and Link Inputs -->
                 <div class="row">
@@ -58,7 +59,7 @@
                 <!-- Survey -->
                 <div class="input-field col s12">
                     <select id="q1">
-                        <option value="" disabled selected>Choose your option</option>
+                        <option value="" disabled selected></option>
                         <option value="1">Dogs</option>
                         <option value="2">Cats</option>
                         <option value="3">Sugar Gliders</option>
@@ -69,7 +70,7 @@
 
                 <div class="input-field col s12">
                     <select id="q2">
-                        <option value="" disabled selected>Choose your option</option>
+                        <option value="" disabled selected></option>
                         <option value="1">Mountains</option>
                         <option value="2">Lakes</option>
                         <option value="3">Desert</option>
@@ -80,7 +81,7 @@
 
                 <div class="input-field col s12">
                     <select id="q3">
-                        <option value="" disabled selected>Choose your option</option>
+                        <option value="" disabled selected></option>
                         <option value="1">Strongly Agree, I'm basically Bear Grylls</option>
                         <option value="2">Agree</option>
                         <option value="3">Disagree</option>
@@ -91,7 +92,7 @@
 
                 <div class="input-field col s12">
                     <select id="q4">
-                        <option value="" disabled selected>Choose your option</option>
+                        <option value="" disabled selected></option>
                         <option value="1">South Park</option>
                         <option value="2">Seinfeld</option>
                         <option value="3">Bathroom Joke Books</option>
@@ -102,7 +103,7 @@
 
                 <div class="input-field col s12">
                     <select id="q5">
-                        <option value="" disabled selected>Choose your option</option>
+                        <option value="" disabled selected></option>
                         <option value="1">Fall</option>
                         <option value="2">Winter</option>
                         <option value="3">Summer</option>
@@ -113,7 +114,7 @@
 
                 <div class="input-field col s12">
                     <select id="q6">
-                        <option value="" disabled selected>Choose your option</option>
+                        <option value="" disabled selected></option>
                         <option value="1">Yes give me ALL THE PINEAPPLE</option>
                         <option value="2">Sure!</option>
                         <option value="3">No, I'm a barbarian and I hate pineapple</option>
@@ -124,7 +125,7 @@
 
                 <div class="input-field col s12">
                     <select id="q7">
-                        <option value="" disabled selected>Choose your option</option>
+                        <option value="" disabled selected></option>
                         <option value="1">Socrates</option>
                         <option value="2">Confucius</option>
                         <option value="3">Foucault</option>
@@ -135,7 +136,7 @@
 
                 <div class="input-field col s12">
                     <select id="q8">
-                        <option value="" disabled selected>Choose your option</option>
+                        <option value="" disabled selected></option>
                         <option value="1">Hiking in the mountains</option>
                         <option value="2">Boozy brunch</option>
                         <option value="3">Watching Mean Girls in our pjs</option>
@@ -146,7 +147,7 @@
 
                 <div class="input-field col s12">
                     <select id="q9">
-                        <option value="" disabled selected>Choose your option</option>
+                        <option value="" disabled selected></option>
                         <option value="1">Museum of Modern Art</option>
                         <option value="2">Museum of Nature and Science</option>
                         <option value="3">Natural History Museum</option>
@@ -157,7 +158,7 @@
 
                 <div class="input-field col s12">
                     <select id="q10">
-                        <option value="" disabled selected>Choose your option</option>
+                        <option value="" disabled selected></option>
                         <option value="1">"Frankly, my dear, I don't give a damn."</option>
                         <option value="2">"What we've got here is a failure to communicate."</option>
                         <option value="3">"My prrrrecious..."</option>
@@ -166,9 +167,10 @@
                     <label>Which quote best matches your personality?</label>
                 </div>
 
+                <div class="center-align">
                 <a class="waves-effect waves-light orange darken-2 btn" id="findMatch"><i class="fas fa-user-friends left"></i>Find
                     Your Match!</a>
-
+                </div>
             </form>
 
 
@@ -180,8 +182,8 @@
     <footer class="page-footer orange">
         <div class="footer-copyright">
             <div class="container">
-                © 2019 k8blanco
-                <a class="grey-text text-lighten-4 right" href="/home">Home</a>
+                © 2019 
+                <a class="grey-text text-lighten-4 right" href="https://github.com/k8blanco/">k8blanco</a>
             </div>
         </div>
     </footer>

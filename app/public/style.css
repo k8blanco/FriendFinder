@@ -1,16 +1,17 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    /* background-color: orange; */
 }
 
-/* form {
-    background-color: orange;
-} */
+form {
+    border: 2px solid #fb8c00;
+    margin-top: 20px;
+}
 
-.brand-logo {
+#logo {
     font-family: 'Concert One', cursive;
     font-size: 40px;
+    margin-left: 50px;
 }
 
 #surveyTitle {
@@ -23,6 +24,19 @@ h2 {
 
 .btn {
     align-content: center;
+    margin-bottom: 10px;
+   
+}
+
+.input-field label {
+    color: #ef6c00;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+    margin-top: 60px;
+    border: 2px solid #fb8c00;
 }
 
 body {
@@ -34,4 +48,4 @@ body {
   main {
     flex: 1 0 auto;
   }
-      
+    

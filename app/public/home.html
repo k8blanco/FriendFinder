@@ -6,9 +6,13 @@
     <title>Friend Finder</title>
 
     <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
         crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -17,13 +21,16 @@
 
 <body>
 
-
+<header>
     <!-- NavBar -->
     <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Friend Finder</a>
+        <div class="nav-wrapper orange">
+            <a href="#" class="brand-logo orange">Friend Finder</a>
         </div>
     </nav>
+</header>
+
+<main>
 
     <!-- Directions Card w/ Survey Button -->
     <div class="container">
@@ -31,19 +38,22 @@
             <div class="col s12">
                 <div class="card blue-grey darken-1">
                     <div class="card-content white-text">
-                        <span class="card-title">Answer a few basic questions.  Then find the friend with the 
+                        <span class="card-title">Answer a few basic questions. Then find the friend with the
                             greatest compatibility!</span>
                     </div>
                     <div class="card-action">
-                        <a href="/survey"><button class="waves-effect waves-light btn" id="gotoSurvey"><i class="far fa-list-alt left"></i>Go to Survey</button></a>
+                        <a href="/survey"><button class="waves-effect waves-light orange darken-2 btn" id="gotoSurvey"><i
+                                    class="far fa-list-alt left"></i>Go to Survey</button></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+</main>
+
     <!-- Footer -->
-    <footer class="page-footer">
+    <footer class="page-footer orange">
         <div class="container">
         </div>
         <div class="footer-copyright">
@@ -57,4 +67,3 @@
 </body>
 
 </html>
-

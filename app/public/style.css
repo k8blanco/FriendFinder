@@ -1,0 +1,37 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: orange; */
+}
+
+/* form {
+    background-color: orange;
+} */
+
+.brand-logo {
+    font-family: 'Concert One', cursive;
+    font-size: 40px;
+}
+
+#surveyTitle {
+    font-family: 'Concert One', cursive;
+}
+
+h2 {
+    font-family: 'Concert One', cursive;
+}
+
+.btn {
+    align-content: center;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+      

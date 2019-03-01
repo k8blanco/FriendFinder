@@ -1,9 +1,7 @@
 //Load Survey Data Arrays
-
 var friends = require("../data/friends");
 
 //Routing
-
 module.exports = function (app) {
 
     //API GET Requests
@@ -32,9 +30,6 @@ module.exports = function (app) {
                 diff += Math.abs(friends[i].scores[j] - compatScores[j]);
             }
 
-            // console.log("diff: " + diff);
-
-
             //Friend match with lowest difference
             if (diff < difference) {
                 console.log("Closest match found!");
@@ -51,12 +46,6 @@ module.exports = function (app) {
         //Add new user
         friends.push(newFriend);
 
-        //return dummy data
-        // res.json({
-        //     status: 'OK',
-        //     nameMatch: "George",
-        //     photoMatch: "https://www.syfy.com/sites/syfy/files/styles/1200x680/public/2018/06/joe.bob_.jpg"
-        // });
 
         //send response
         res.json({
@@ -68,5 +57,3 @@ module.exports = function (app) {
 
     });
 };
-
-

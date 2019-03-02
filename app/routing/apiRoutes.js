@@ -40,6 +40,8 @@ module.exports = function (app) {
                 nameMatch = friends[i].name;
                 photoMatch = friends[i].photo;
 
+                console.log("------" + photoMatch);
+
             }
         };
 

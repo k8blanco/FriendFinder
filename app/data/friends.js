@@ -32,7 +32,7 @@ var friendsArray = [{
     },
     {
         name: "Jillian",
-        photo: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/766/7-genius-weight-loss-tips-from-jillian-michaels-1505500562.jpg?resize=480:*",
+        photo: "https://a57.foxnews.com/a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2019/01/640/320/1862/1048/Jillian-Michaels-Getty.jpg?ve=1&tl=1?ve=1&tl=1",
         scores: [3, 4, 4, 1, 2, 2, 1, 4, 4, 3]
     }
 ]
